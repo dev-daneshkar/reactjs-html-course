@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+#loginBtn {
+    background-color: rgb(14, 119, 232);
+    color: white;
+    padding: 6px 12px;
+    border: 0;
+    border-radius: 8px;
+}
+
+#signupBtn {
+    background-color: white;
+    color: rgb(14, 119, 232);
+    padding: 6px 12px;
+    border: 1px rgb(14, 119, 232) solid;
+    border-radius: 8px;
+}
+
+#tag {
+    background-color: rgb(223, 133, 30);
+    color: white;
+    width: 90px;
+    height: 20px;
+    border-radius: 20px;
+    display: inline;
+    padding: 4px 8px;
+    font-size: 10px;
+}
+
+h1 {
+    display: inline;
+}
+
+#date { 
+    display: inline;
+    font-size: 12px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.writerContainer {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.writerContainer > img {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.writerContainer > div {
+    font-size: 14px;
+}
+
+.line {
+    height: 1px;
+    background-color: red;
+    margin-top: 20px;
+}
+
+.blogImage {
+    width: 600px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+p {
+    color: rgb(65, 65, 65);
+}

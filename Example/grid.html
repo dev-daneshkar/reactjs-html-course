@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .wrapper {
+                display: grid;
+                grid-template-areas:
+                    "header header"
+                    "ali ali"
+                    "footer footer";
+                grid-template-rows: 40px 1fr 100px;
+                grid-template-columns: 1fr 200px;
+            }
+
+            .item {
+                background-color: blueviolet;
+                border: 2px solid rgb(74, 17, 127);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #item-1 {
+                grid-row: footer;
+                grid-column: footer;
+                background-color: red;
+            }
+
+            #item-2 {
+                background-color: blue;
+                grid-row: header;
+                grid-column: header;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="item" id="item-1">1</div>
+            <div class="item" id="item-2">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-color: burlywood;
+    border: purple 5px dotted;
+}
+
+li {
+    color: blue;
+}
+
+#mohammad {
+    color: red;
+}
+
+.MohammadGreeen {
+    color: white;
+    background-color: rgb(129, 137, 92);
+    border: blue 5px solid;
+}
+
+#daneshkar {
+    background-color: blueviolet;
+    color: white;
+
+    border-width: 5px;
+    border-color: red;
+    border-style: dotted;
+
+}
